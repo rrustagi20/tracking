@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<launch>
+    <include file="$(find simulator)/launch/default.launch" />
+    <include file="$(find simulator)/launch/husky.launch" />
+    <include file="$(find tracking)/launch/tracker.launch"/>
+</launch>

@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<launch>
+    <include file="$(find husky_gazebo)/launch/spawn_husky.launch">
+        <arg name="x" value="1"/>
+        <arg name="y" value="1"/>
+        <arg name="z" value="1"/>
+    </include>
+    <include file="$(find teleop_twist_keyboard)/launch/husky_keyboard.launch"/> 
+
+</launch>

@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<launch>
+	<node pkg="tracking" name="tracker_node" type="tracker_node" output="screen">
+		<remap from="/image" to="/firefly/camera_downward/image_raw"/>
+	</node>
+</launch>
