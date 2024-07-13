@@ -4,8 +4,10 @@ This respository contains ROS packages for autonomous trakcing of an object usin
 
 ### Dependencies
 
-* ``` sudo apt-get install ros-melodic-husky-gazebo ros-melodic-teleop-twist-keyboard``` 
-* ``` sudo apt-get install ros-melodic-cv-bridge ros-melodic-image-transposrt ros-melodic-eigen-conversions ``` 
+```bash
+sudo apt-get install ros-melodic-husky-gazebo ros-melodic-teleop-twist-keyboard
+sudo apt-get install ros-melodic-cv-bridge ros-melodic-image-transposrt ros-melodic-eigen-conversions
+```
 
 ### Other Dependencies
 
@@ -13,7 +15,7 @@ OpenCV C++ version atleast 3.x.x required
 
 Procedure to install openCV 3.4.2 from source
 
-```
+```bash
 git clone https://github.com/opencv/opencv.git
 cd opencv && git checkout 3.4.2
 cd ..
@@ -39,7 +41,7 @@ sudo ldconfig
 ```
 ### Installation Instructions: 
 
-```
+```bash
 mkdir -p ~/tracking_ws/src
 cd ~/tracking_ws/src
 catkin init
@@ -53,7 +55,7 @@ source ~/.bashrc
 ```
 
 ### How to run the simulation
-```
+```bash
 roslaunch simulator simulation.launch
 ```
 ## Different packages
